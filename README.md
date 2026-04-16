@@ -69,9 +69,11 @@ A total of **17 business questions** were solved, covering core metrics, custome
 **8. Top Customers**
 👉 Top customers spend up to ₹6,700+, showing presence of high-value buyers.
 
-**9. One-time vs Repeat Customers:**
-👉 ~99K customers are one-time buyers
-👉 **Insight:** Retention is a major opportunity area.
+**9. One-time vs Repeat Customers**
+- One-time Customers: 93,099  
+- Repeat Customers: 2,997
+
+👉A very small percentage of customers return for multiple purchases.  This indicates a strong need for improving customer retention strategies such as loyalty programs, personalized recommendations, and remarketing.
 
 **10. Top Cities by Revenue**
 
