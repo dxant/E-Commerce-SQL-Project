@@ -1,2 +1,3 @@
-customer_type,num
-one_time,99441
+customer_type,num_customers
+One-time,93099
+Multi-time,2997
