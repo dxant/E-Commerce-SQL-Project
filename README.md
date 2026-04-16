@@ -121,6 +121,24 @@ Top categories:
 👉 Indicates business growth phase during this period.
 
 ---
+## 📊 Key Visual Insights
+
+### 📈 Monthly Revenue Trend
+
+<img width="803" height="545" alt="Monthly Revenue Trend" src="https://github.com/user-attachments/assets/8790c338-e33c-4b1a-8ab9-9e7efb65f2c8" />
+
+
+
+### 📍 Top 5 Cities by Revenue
+<img width="886" height="545" alt="Top 5 Cities By Revenue" src="https://github.com/user-attachments/assets/052bb273-177e-4a35-b5b9-048e414ad0be" />
+
+
+
+### 👥 Customer Segmentation
+<img width="745" height="600" alt="Customer Segmentation" src="https://github.com/user-attachments/assets/b4468cb4-3352-454a-aa65-b8ea2f594034" />
+
+
+---
 
 
 ## 💡 Key Learnings
