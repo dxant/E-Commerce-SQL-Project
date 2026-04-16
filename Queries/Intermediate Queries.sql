@@ -42,20 +42,23 @@ order by total_spent desc
 limit 10;
 
 #9.How many customers made only 1 order vs multiple orders?
-select 
-	case
-		when totalcount = 1 then 'one_time' 
-        else 'mul_time'
-    end as customer_type,
-    count(*) as num
-from (
-		select 
-			customer_id,
-            count(order_id) as totalcount
-        from orders
-        group by customer_id
-	) as o
-group by customer_type;
+WITH customer_orders AS (
+    SELECT 
+        c.customer_unique_id,
+        COUNT(o.order_id) AS total_orders
+    FROM customers c
+    JOIN orders o 
+        ON c.customer_id = o.customer_id
+    GROUP BY c.customer_unique_id
+)
+SELECT 
+    CASE 
+        WHEN total_orders = 1 THEN 'One-time'
+        ELSE 'Multi-time'
+    END AS customer_type,
+    COUNT(*) AS num_customers
+FROM customer_orders
+GROUP BY customer_type;
 
 
 #10.Which top 5 cities generate the most revenue?
@@ -95,13 +98,3 @@ using (product_id)
 group by product_category_name
 order by avg_price desc
 limit 10;
-
-
-
-
-
-
-
-
-
-
